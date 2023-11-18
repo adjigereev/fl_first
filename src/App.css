@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  background: #EAEAEA;
 }
 
 .App-logo {
@@ -32,7 +39,160 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.main_sidebar {
+  width: 199px;
+  height: 521px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #FFF;
+}
+
+.sidebar_second {
+  width: 200px;
+  height: 1258px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #CBF035;
+}
+
+.sidebar_second p {
+  color: #000;
+
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.block_garant {
+  width: 881px;
+  height: 339px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.block_garant_first {
+  width: 443px;
+  height: 62px;
+}
+
+.block_garant_first .title {
+  padding-top: 13px;
+  color: #000;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 17px;
+  line-height: normal;
+  border-bottom: 1px solid #AFCABD;
+  border-right: 1px solid #AFCABD;
+}
+
+.garant_ul {
+  border-right: 1px solid #AFCABD;
+}
+
+.title_garant {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.garant_button button {
+  background-color: #FFCC17;
+  width: 443px;
+  height: 62px;
+  flex-shrink: 0;
+  border-end-start-radius: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.block_garant_second {
+  width: 443px;
+}
+
+.block_garant_second__title {
+  display: flex;
+  padding: 16px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  width: 100%;
+  border-bottom: 1px solid #AFCABD;
+
+
+}
+
+.block_garant_second ul li {
+  list-style: inside !important;
+
+  display: flex;
+}
+
+.block_garant_second a {
+  color: #507EF4;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.block_garant_second button {
+  margin-top: 56.4px;
+  width: 438px;
+  height: 62px;
+  background: #A1EE8E;
+  border-bottom-right-radius: 20px;
+  color: #000;
+
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title_relative_products {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 12px;
+  padding-top: 16px;
+}
+
+.footer {
+  background: #605F5F;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20px;
 }
